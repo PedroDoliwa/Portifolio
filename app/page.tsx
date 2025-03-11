@@ -1,6 +1,7 @@
 import AboutMe from "@/components/about-me";
 import Contact from "@/components/contact";
 import Experience from "@/components/experience";
+import Footer from "@/components/footer";
 import Introduction from "@/components/introduction";
 import Navbar from "@/components/navbar";
 import Portifolio from "@/components/portifolio";
@@ -18,6 +19,7 @@ export default function Home() {
       <Portifolio />
       <Testimonials />
       <Contact />
+      <Footer />
     </main>
   );
 }

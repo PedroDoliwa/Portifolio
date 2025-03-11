@@ -1,6 +1,6 @@
 import { itemsNavbar } from "@/data";
-import { Link } from "lucide-react";
 import { ToggleTheme } from "./toggle-theme";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -9,11 +9,12 @@ const Navbar = () => {
         {itemsNavbar.map((item) => (
           <div
             key={item.id}
-            className="cursor-pointer hover:dark-bg-slate-800 hover:bg-slate-400 px-3 py-2 rounded-full transition duration-150"
+            className="cursor-pointer hover:dark-bg-slate-800 hover:bg-slate-400  px-3 py-2 rounded-full transition duration-150"
           >
             <Link href={item.link}>{item.icon}</Link>
           </div>
         ))}
+
         <ToggleTheme />
       </div>
     </nav>

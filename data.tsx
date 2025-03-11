@@ -59,7 +59,7 @@ export const itemsNavbar = [
     id: 4,
     title: "Target",
     icon: <CodeSquare size={20} />,
-    link: "#portfolio",
+    link: "#portifolio",
   },
   {
     id: 5,
